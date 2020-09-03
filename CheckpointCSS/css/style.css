@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #393b44;
+  background-color: #f1f3f8;
+}
+
+h2 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Long Cang", cursive;
+  margin-top: 0;
+}
+
+hr {
+  width: 3%;
+  border-top: 7px dotted #393b44;
+  padding: 0 auto 0 auto;
+  margin: 0 auto 0 auto;
+}
+ul {
+  list-style-type: none;
+}
+
+/* Navigation Bar */
+.navbar {
+  text-align: right;
+  background-color: #d6e0f0;
+  padding: 20px 80px 10px 0;
+  margin: 0;
+}
+.navbar li {
+  display: inline;
+  padding: 10px;
+}
+.navbar a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #393b44;
+}
+
+/*top Container */
+.top-container {
+  background-color: #d6e0f0;
+  padding: 100px 0 100px 0;
+}
+.top-container h1 {
+  font-family: "Long Cang", cursive;
+  font-size: 60px;
+  color: #393b44;
+}
+.top-container p {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+}
+
+/* about section */
+#about {
+  background-color: #f1f3f8;
+  margin-top: 0;
+}
+#about p {
+  padding: 20px 0 50px 0;
+  margin-bottom: 0;
+}
+#about img {
+  width: 10%;
+}
+
+/* Section Work */
+#work {
+  padding-bottom: 40px;
+}
+#work table {
+  padding-left: 38%;
+  padding-right: 35%;
+}
+#work table th {
+  background-color: #393b44;
+  color: #d6e0f0;
+}
+
+/* Resume Section */
+
+#resume h3 {
+  text-align: left;
+  padding-left: 20%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.skills {
+  margin: 5% 0;
+}
+.skill {
+  width: 20%;
+  display: inline-block;
+  line-height: 1.6;
+}
+/* Contact Section */
+#contact {
+  padding-bottom: 30px;
+}
+#contact input {
+  width: 40%;
+  height: 25px;
+  padding: 5px 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 2px solid;
+}
+
+#contact textarea {
+  width: 40%;
+  height: 100px;
+  padding: 5px 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border-color: #393b44;
+}
+.button {
+  background-color: #393b44;
+  color: #d6e0f0;
+}
+/* footer Section */
+footer {
+  background-color: #d6e0f0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}

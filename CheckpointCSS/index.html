@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Wael's Portfolio</title>
+  </head>
+  <link rel="stylesheet" href="css/style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Long+Cang&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="favicon/apple-touch-icon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="favicon/favicon-32x32.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="favicon/favicon-16x16.png"
+  />
+  <link rel="manifest" href="favicon/site.webmanifest" />
+
+  <body>
+    <!--Navigation bar-->
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li class="nav"><a href="index.html">Home </a></li>
+          <li class="nav"><a href="#about">About </a></li>
+          <li class="nav"><a href="#work">Work </a></li>
+          <li class="nav"><a href="#resume">Resume</a></li>
+          <li class="nav"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="top-container">
+        <h1>I'm Mohamed Wael Gharbi</h1>
+        <p>a Web Developer</p>
+      </div>
+    </header>
+    <main>
+      <hr />
+      <!--About Section -->
+      <section id="about">
+        <h2>About</h2>
+        <img src="media/image1.png" alt="photo de profil" />
+        <h3>Hello.</h3>
+        <p>I'm fullstack web developer and i'm learning React and Nodejs .</p>
+      </section>
+      <hr />
+      <!-- Work Section-->
+      <section id="work">
+        <h2>Work experience</h2>
+        <table cellspacing="10">
+          <tr>
+            <th>Date</th>
+            <th>Work</th>
+          </tr>
+          <tr>
+            <td>2012 - 2016</td>
+            <td>Instructor at Ranim Music school</td>
+          </tr>
+          <tr>
+            <td>2016 - 2019</td>
+            <td>Medical representative at shiva medical</td>
+          </tr>
+        </table>
+      </section>
+      <hr />
+
+      <!--Resume Section -->
+      <section id="resume">
+        <h2>Resume</h2>
+        <h3>Education</h3>
+        <ul>
+          <li>Master degree in Networks and Distributed System</li>
+          <li>Bachelor degree in computer Science</li>
+        </ul>
+
+        <h3>Skills</h3>
+        <div class="skills">
+        <div class="skill">
+          <img src="media/react.png" alt="Reactjs" width="100px" height="100px"> 
+          <h4>React</h4>
+          <p>React is an open-source JavaScript library for building user interfaces or UI components. </p>
+        </div>
+        <div class="skill">
+          <img src="media/nodejs.png" alt="Nodejs" width="100px" height="100px"> 
+          <h4>Nodejs</h4>
+          <p>. Node.js is an open-source, cross-platform and JavaScript runtime environment (Framework) </p>
+        </div>
+        <div class="skill">
+          <img src="media/mysql.png" alt="mysql" width="100px" height="100px"> 
+          <h4>Mysql</h4>
+          <p>MySQL is an open-source relational database management system (RDBMS).  </p>
+        </div>
+      </div>
+        <h3>Hobbies</h3>
+        <ul>
+          <li>
+            Video Games<br />
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/zdb41X6uuEI"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </li>
+          <li>Travel</li>
+          <li>
+            Music: <br />
+            <br /><audio controls>
+              <source src="media/Grimo.wav" type="audio/mpeg" />
+            </audio>
+          </li>
+        </ul>
+      </section>
+      <hr />
+      <!--Contact Section -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form
+          action="mailto:med.wael.gharbi@gmail.com"
+          method="POST"
+          enctype="text/plain"
+        >
+          <input
+            type="text"
+            name="yourname"
+            value=""
+            placeholder="Your Name"
+          /><br />
+
+          <input
+            type="email"
+            name="youremail"
+            value=""
+            placeholder="Your E-mail"
+          /><br />
+
+          <textarea
+            name="yourmessage"
+            value=""
+            placeholder="Your Message"
+          ></textarea
+          ><br />
+
+          <input class="button" type="submit" name="" />
+        </form>
+      </section>
+    </main>
+    <!-- Footer Section-->
+    <footer>
+      <p align="center">
+        Contact :<a href="mailto:hege@example.com">
+          med.wael.gharbi@gmail.com</a
+        >
+      </p>
+      <p align="center">Powered by &#169; Wael</p>
+    </footer>
+  </body>
+</html>
